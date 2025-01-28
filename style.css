@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(248, 247, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: rgb(70, 68, 68);
+    padding: 20px;
+    border-radius: 10px;
+}
+.divhead{
+    margin-top: 10px;
+    margin-bottom:10px;
+    float: left;
+    /* display: flex; */
+    width: 80%;
+
+}
+h1{
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.calculator form button{
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2); 
+    background: transparent;
+    font-size: 20px;
+    color:aliceblue;
+    cursor: pointer;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    border-width: 5px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+}
+
+form .display input{
+    margin-top: 20px;
+    height: 80px;
+    text-align: right;
+    flex: left;
+    font-size: 40px;
+    box-shadow: none;
+    border-radius: 5px;
+    border-width: 5px;
+}
+.row56{
+    float: left;
+}
+form button.plusbutton{
+    height: 200px;
+}
+form button.gbutton{
+    background-color: green;
+}
+form button.ybutton{
+    background-color: rgb(233, 143, 8);
+    color: black;
+    font-weight: bolder;
+}
+form button.pbutton{
+    background-color: palevioletred;
+}
+form button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+form button.gb{
+    background-color: gray;
+}
